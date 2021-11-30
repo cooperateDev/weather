@@ -1,0 +1,60 @@
+.boohee-pixiu-semi-circle-meter {
+    position: relative;
+    width: 188px;
+  }
+  
+  .boohee-pixiu-semi-circle-meter .icon-baby {
+    display: block;
+    width: 42px;
+    height: 39px;
+    background: url("http://up.boohee.cn/house/u/site/m/icon-baby-wdpormdp@2x.png") center center no-repeat;
+    background-size: 42px 39px;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -12px;
+  }
+  
+  .boohee-pixiu-semi-circle-meter .value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 42px;
+    
+    width: 50px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .boohee-pixiu-semi-circle-meter .value > div:first-child {
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .boohee-pixiu-semi-circle-meter > .dial {
+    list-style: none;
+    
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+  
+    color: #DFE0E5;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .boohee-pixiu-semi-circle-meter > .dial li:first-child {
+    float: left;
+    font-size: 7px;
+    font-weight: 100;
+  }
+  
+  .boohee-pixiu-semi-circle-meter > .dial li:last-child {
+    float: right;
+    font-size: 7px;
+    font-weight: 100;
+  }
